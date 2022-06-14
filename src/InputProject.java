@@ -17,7 +17,7 @@ public class InputProject {
         weeks = scan.nextInt();
 
 
-       System.out.println("Days: " + (weeks) * 7 / 1);
+       System.out.println("Days: " + (weeks) * days);
        System.out.println("Hours: " + (weeks) * hours);
        System.out.println("Minutes: " + (weeks)* minutes);
        System.out.println("Second: " + (weeks) * seconds);
